@@ -24,23 +24,6 @@
                 android:layout_height="wrap_content"
                 android:text="@string/header_hint_refresh_normal" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/header_hint_refresh_time"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/header_hint_time"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="12sp" />
-            </LinearLayout>
         </LinearLayout>
 
         <ProgressBar

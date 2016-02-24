@@ -106,7 +106,6 @@ public class XFooterView extends LinearLayout {
                 if (mState != STATE_READY) {
 //                    mHintImage.clearAnimation();
 //                    mHintImage.startAnimation(mRotateUpAnim);
-                    mHintView.setText(R.string.footer_hint_load_ready);
                 }
                 break;
 

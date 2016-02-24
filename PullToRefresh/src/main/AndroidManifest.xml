@@ -26,6 +26,10 @@
         <activity
             android:name=".ui.XScrollViewActivity"
             android:label="@string/app_name" />
+
+        <activity
+            android:name=".ui.XExpandListViewActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

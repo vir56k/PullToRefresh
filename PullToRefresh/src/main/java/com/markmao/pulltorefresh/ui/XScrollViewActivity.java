@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+
 import com.markmao.pulltorefresh.R;
 import com.markmao.pulltorefresh.widget.XScrollView;
 
@@ -61,7 +62,6 @@ public class XScrollViewActivity extends Activity implements XScrollView.IXScrol
         mScrollView.setPullLoadEnable(true);
         mScrollView.setAutoLoadEnable(true);
         mScrollView.setIXScrollViewListener(this);
-        mScrollView.setRefreshTime(getTime());
 
         View content = LayoutInflater.from(this).inflate(R.layout.vw_scroll_view_content, null);
 
@@ -126,7 +126,6 @@ public class XScrollViewActivity extends Activity implements XScrollView.IXScrol
     private void onLoad() {
         mScrollView.stopRefresh();
         mScrollView.stopLoadMore();
-        mScrollView.setRefreshTime(getTime());
     }
 
     private String getTime() {

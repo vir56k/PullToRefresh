@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.widget.ArrayAdapter;
 
 import com.markmao.pulltorefresh.R;
+import com.markmao.pulltorefresh.widget.IXListViewListener;
 import com.markmao.pulltorefresh.widget.XListView;
 
 import java.text.SimpleDateFormat;
@@ -21,7 +22,7 @@ import java.util.Locale;
  * @author markmjw
  * @date 2013-10-08
  */
-public class XListViewActivity extends Activity implements XListView.IXListViewListener {
+public class XListViewActivity extends Activity implements IXListViewListener {
     private XListView mListView;
 
     private ArrayAdapter<String> mAdapter;
@@ -55,20 +56,19 @@ public class XListViewActivity extends Activity implements XListView.IXListViewL
         mListView.setPullLoadEnable(true);
         mListView.setAutoLoadEnable(true);
         mListView.setXListViewListener(this);
-        mListView.setRefreshTime(getTime());
 
         mAdapter = new ArrayAdapter<String>(this, R.layout.vw_list_item, items);
         mListView.setAdapter(mAdapter);
     }
 
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-
-        if (hasFocus) {
-            mListView.autoRefresh();
-        }
-    }
+//    @Override
+//    public void onWindowFocusChanged(boolean hasFocus) {
+//        super.onWindowFocusChanged(hasFocus);
+//
+//        if (hasFocus) {
+//            mListView.autoRefresh();
+//        }
+//    }
 
     @Override
     public void onRefresh() {
@@ -107,7 +107,6 @@ public class XListViewActivity extends Activity implements XListView.IXListViewL
     private void onLoad() {
         mListView.stopRefresh();
         mListView.stopLoadMore();
-        mListView.setRefreshTime(getTime());
     }
 
     private String getTime() {

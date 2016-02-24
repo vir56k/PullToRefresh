@@ -20,6 +20,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         Button scrollBrn = (Button) findViewById(R.id.scroll_view_btn);
         scrollBrn.setOnClickListener(this);
+
+        Button xExpandBrn = (Button) findViewById(R.id.exnpandlist_view_btn);
+        xExpandBrn.setOnClickListener(this);
+
+//        xExpandBrn.performClick();
+//        listBrn.performClick();
     }
 
     @Override
@@ -39,6 +45,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.scroll_view_btn:
                 XScrollViewActivity.launch(this);
                 break;
+            case R.id.exnpandlist_view_btn:
+                XExpandListViewActivity.launch(this);
         }
     }
 }

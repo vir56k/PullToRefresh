@@ -4,9 +4,9 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <com.markmao.pulltorefresh.widget.XScrollView
-        android:id="@+id/scroll_view"
+    <com.markmao.pulltorefresh.widget.XExpandableListView
+        android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="true" />
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"/>
 </LinearLayout>
