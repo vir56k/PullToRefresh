@@ -3,6 +3,11 @@ PullToRefresh
 
 *注：本项目使用Android Studio开发*
 
+### 特点: ###
+    1.支持 listview 下拉刷新，下拉出现 滚动的进度条,触底加载，拖动到底部时加载更多数据
+    2.支持 scroolview 下拉刷新，触底加载
+    3.支持 ExpandableListView 下拉刷新，触底加载
+
 ### 根据MarkMjw的PullToRefresh改造: ###
     1.减去了刷新时间的显示
     2.增加了XExpandableListView支持。
