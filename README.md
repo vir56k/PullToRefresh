@@ -57,11 +57,3 @@ public void onLoadMore() {
     }, 2500);
 }
 
-##Screenshots
-![Screenshot 0](https://raw.github.com/MarkMjw/PullToRefresh/master/Screenshots/0.png)
-
-![Screenshot 1](https://raw.github.com/MarkMjw/PullToRefresh/master/Screenshots/1.png)
-
-![Screenshot 2](https://raw.github.com/MarkMjw/PullToRefresh/master/Screenshots/2.png)
-
-![Screenshot 3](https://raw.github.com/MarkMjw/PullToRefresh/master/Screenshots/3.png)
