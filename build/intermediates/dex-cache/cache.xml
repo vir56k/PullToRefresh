@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/zhangyunfei/git/PullToRefresh/PullToRefreshDemo/build/intermediates/exploded-aar/PullToRefresh/zhangyf.vir56k.pulltorefresh/unspecified/classes.jar"
+        jar="/Users/zhangyunfei/git/PullToRefresh/PullToRefreshDemo/build/intermediates/exploded-aar/zhangyf.vir56k/zhangyf.vir56k.pulltorefresh/0.0.1/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1d04df8da1d8a2b0f26be60270299aeac05f66eb">
-        <dex dex="/Users/zhangyunfei/git/PullToRefresh/PullToRefreshDemo/build/intermediates/pre-dexed/debug/classes-b9fc859c9773432d80b866a6179196be23963bae.jar" />
+        sha1="cbfa7de7a80520433a1eab4f72d79b102e57fb1c">
+        <dex dex="/Users/zhangyunfei/git/PullToRefresh/PullToRefreshDemo/build/intermediates/pre-dexed/debug/classes-b6abaca872359de885f97060c1b266c4b2254ac9.jar" />
     </item>
 
 </items>

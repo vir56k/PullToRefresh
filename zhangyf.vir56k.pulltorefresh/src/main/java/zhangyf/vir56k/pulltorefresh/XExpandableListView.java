@@ -21,8 +21,7 @@ import android.widget.Scroller;
 /**
  * XListView, it's based on <a href="https://github.com/Maxwin-z/XListView-Android">XListView(Maxwin)</a>
  *
- * @author markmjw
- * @date 2013-10-08
+ * @author zhangyf
  */
 public class XExpandableListView extends ExpandableListView implements OnScrollListener {
 //    private static final String TAG = "XListView";
@@ -139,7 +138,7 @@ public class XExpandableListView extends ExpandableListView implements OnScrollL
     /**
      * Enable or disable pull down refresh feature.
      *
-     * @param enable
+     * @param enable is enable
      */
     public void setPullRefreshEnable(boolean enable) {
         mEnablePullRefresh = enable;
@@ -151,7 +150,7 @@ public class XExpandableListView extends ExpandableListView implements OnScrollL
     /**
      * Enable or disable pull up load more feature.
      *
-     * @param enable
+     * @param enable is enable
      */
     public void setPullLoadEnable(boolean enable) {
         mEnablePullLoad = enable;
@@ -180,7 +179,7 @@ public class XExpandableListView extends ExpandableListView implements OnScrollL
     /**
      * Enable or disable auto load more feature when scroll to bottom.
      *
-     * @param enable
+     * @param enable is enable
      */
     public void setAutoLoadEnable(boolean enable) {
         mEnableAutoLoad = enable;
@@ -209,7 +208,7 @@ public class XExpandableListView extends ExpandableListView implements OnScrollL
     /**
      * Set listener.
      *
-     * @param listener
+     * @param listener listener
      */
     public void setXListViewListener(IXListViewListener listener) {
         mListener = listener;

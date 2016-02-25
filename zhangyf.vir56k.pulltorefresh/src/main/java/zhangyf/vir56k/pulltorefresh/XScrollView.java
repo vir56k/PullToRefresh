@@ -22,8 +22,6 @@ import android.widget.Scroller;
  * XScrollView, modified from {@link XListView}
  *
  * @author markmjw
- * @date 2013-10-08
- * @see XListView
  */
 public class XScrollView extends ScrollView implements OnScrollListener {
 //    private static final String TAG = "XScrollView";
@@ -133,7 +131,7 @@ public class XScrollView extends ScrollView implements OnScrollListener {
     /**
      * Set the content ViewGroup for XScrollView.
      *
-     * @param content
+     * @param content content
      */
     public void setContentView(ViewGroup content) {
         if (mLayout == null) {
@@ -153,7 +151,7 @@ public class XScrollView extends ScrollView implements OnScrollListener {
     /**
      * Set the content View for XScrollView.
      *
-     * @param content
+     * @param content content
      */
     public void setView(View content) {
         if (mLayout == null) {
@@ -169,7 +167,7 @@ public class XScrollView extends ScrollView implements OnScrollListener {
     /**
      * Enable or disable pull down refresh feature.
      *
-     * @param enable
+     * @param enable enable
      */
     public void setPullRefreshEnable(boolean enable) {
         mEnablePullRefresh = enable;
@@ -181,7 +179,7 @@ public class XScrollView extends ScrollView implements OnScrollListener {
     /**
      * Enable or disable pull up load more feature.
      *
-     * @param enable
+     * @param enable enable
      */
     public void setPullLoadEnable(boolean enable) {
         mEnablePullLoad = enable;
@@ -210,7 +208,7 @@ public class XScrollView extends ScrollView implements OnScrollListener {
     /**
      * Enable or disable auto load more feature when scroll to bottom.
      *
-     * @param enable
+     * @param enable enable
      */
     public void setAutoLoadEnable(boolean enable) {
         mEnableAutoLoad = enable;
@@ -239,7 +237,7 @@ public class XScrollView extends ScrollView implements OnScrollListener {
     /**
      * Set listener.
      *
-     * @param listener
+     * @param listener listener
      */
     public void setIXScrollViewListener(IXScrollViewListener listener) {
         mListener = listener;

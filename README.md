@@ -15,6 +15,9 @@ PullToRefresh
 
 原PullToRefresh参考链接：https://github.com/MarkMjw/PullToRefresh
 
+## 在gradle项目中添加库引用 ##
+    compile 'zhangyf.vir56k:zhangyf.vir56k.pulltorefresh:0.0.1'
+
 ## **XListView使用示例** ##
 
 设置XListView相关属性<br>

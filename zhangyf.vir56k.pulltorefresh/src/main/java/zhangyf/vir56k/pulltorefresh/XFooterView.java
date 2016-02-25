@@ -15,7 +15,6 @@ import android.widget.TextView;
  * {@link XScrollView}
  *
  * @author markmjw
- * @date 2013-10-08
  */
 public class XFooterView extends LinearLayout {
     public final static int STATE_NORMAL = 0;
@@ -75,7 +74,7 @@ public class XFooterView extends LinearLayout {
      * @see #STATE_NORMAL
      * @see #STATE_READY
      *
-     * @param state
+     * @param state state
      */
     public void setState(int state) {
         if (state == mState) return;
@@ -119,7 +118,7 @@ public class XFooterView extends LinearLayout {
     /**
      * Set footer view bottom margin.
      *
-     * @param margin
+     * @param margin margin
      */
     public void setBottomMargin(int margin) {
         if (margin < 0) return;
@@ -131,7 +130,7 @@ public class XFooterView extends LinearLayout {
     /**
      * Get footer view bottom margin.
      *
-     * @return
+     * @return number int
      */
     public int getBottomMargin() {
         LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) mLayout.getLayoutParams();

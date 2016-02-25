@@ -17,7 +17,6 @@ import android.widget.TextView;
  * {@link XScrollView}
  *
  * @author markmjw
- * @date 2013-10-08
  */
 public class XHeaderView extends LinearLayout {
     public final static int STATE_NORMAL = 0;
@@ -124,8 +123,7 @@ public class XHeaderView extends LinearLayout {
 
     /**
      * Set the header view visible height.
-     *
-     * @param height
+     * @param height height
      */
     public void setVisibleHeight(int height) {
         if (height < 0) height = 0;
@@ -136,8 +134,7 @@ public class XHeaderView extends LinearLayout {
 
     /**
      * Get the header view visible height.
-     *
-     * @return
+     * @return height
      */
     public int getVisibleHeight() {
         return mContainer.getHeight();

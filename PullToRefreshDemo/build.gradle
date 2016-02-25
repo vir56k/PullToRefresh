@@ -12,5 +12,6 @@ android {
 }
 
 dependencies {
+    //    compile 'zhangyf.vir56k:zhangyf.vir56k.pulltorefresh:0.0.1'
     compile project(':zhangyf.vir56k.pulltorefresh')
 }
