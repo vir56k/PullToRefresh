@@ -2,7 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "0.0.1"
+
+version = "0.0.2"
 def siteUrl = 'https://github.com/vir56k/PullToRefresh'    // project homepage
 def gitUrl = 'https://github.com/vir56k/PullToRefresh' // project git
 group = "zhangyf.vir56k"
